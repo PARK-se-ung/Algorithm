@@ -1,0 +1,4 @@
+import sys
+input = sys.stdin.readline
+
+print('Oh My God!') if int(input()) < 6 else print('Success!')
