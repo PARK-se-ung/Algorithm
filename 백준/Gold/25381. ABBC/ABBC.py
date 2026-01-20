@@ -12,6 +12,7 @@ a, b, c = 0, 0, 0
 for i in range(n):
     if arr[i] == 'C':
         if b > 0:
+            b -= 1
             c += 1
     else:
         if arr[i] == 'B':
