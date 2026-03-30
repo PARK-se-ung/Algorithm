@@ -1,0 +1,4 @@
+import sys
+input = sys.stdin.readline
+
+print(f"The 1-3-sum is {91 + int(input()) * 1 + int(input()) * 3 + int(input()) * 1}")
